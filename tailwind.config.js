@@ -12,9 +12,9 @@ export default {
         accent: '#4A738E',
       },
       fontFamily: {
-        'lora': ['Lora', 'serif'],
-        'inter': ['Inter', 'sans-serif'],
-        'source': ['Source Code Pro', 'monospace'],
+        'lora': ['"Lora"', 'serif'],
+        'inter': ['"Inter"', 'sans-serif'],
+        'source': ['"Source Code Pro"', 'monospace'],
       },
     },
   },

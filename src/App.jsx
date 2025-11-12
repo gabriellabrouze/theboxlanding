@@ -2,7 +2,7 @@ import React from 'react'
 
 function App() {
   return (
-    <div className="min-h-screen bg-secondary">
+    <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -31,14 +31,14 @@ function App() {
           </p>
 
           {/* Search Button */}
-          <button className="bg-accent hover:bg-opacity-90 text-white font-inter font-normal text-lg px-12 py-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
+          <button className="bg-accent hover:bg-opacity-90 text-white font-source text-lg px-12 py-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
             Search
           </button>
         </div>
 
         {/* Features Section */}
         <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          <div className="bg-secondary p-8 rounded-lg shadow-sm">
             <h4 className="text-xl font-inter font-semibold text-primary mb-3">
               Open Access
             </h4>
@@ -47,7 +47,7 @@ function App() {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          <div className="bg-secondary p-8 rounded-lg shadow-sm">
             <h4 className="text-xl font-inter font-semibold text-primary mb-3">
               Comprehensive
             </h4>
@@ -56,7 +56,7 @@ function App() {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          <div className="bg-secondary p-8 rounded-lg shadow-sm">
             <h4 className="text-xl font-inter font-semibold text-primary mb-3">
               Transparent
             </h4>
@@ -68,10 +68,10 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 mt-16">
+      <footer className="bg-secondary border-t border-gray-200 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-600 font-inter text-sm">
-            © 2024 OpenHansard. An open data repository of parliamentary records.
+            © 2025 OpenHansard. An open data repository of parliamentary records.
           </p>
         </div>
       </footer>
