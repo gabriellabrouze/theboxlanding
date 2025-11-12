@@ -16,7 +16,7 @@ function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-center">
           {/* Logo/Title */}
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-lora font-bold text-primary mb-8">
+          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-lora text-primary mb-8">
             openhansard
           </h2>
 
@@ -26,12 +26,12 @@ function App() {
           </h3>
 
           {/* Description */}
-          <p className="text-xl sm:text-2xl font-inter text-primary max-w-2xl mx-auto mb-12">
+          <p className="text-xl sm:text-2xl font-inter font-normal text-primary max-w-2xl mx-auto mb-12">
             An open data repository of parliamentary records.
           </p>
 
           {/* Search Button */}
-          <button className="bg-primary hover:bg-opacity-90 text-white font-inter font-medium text-lg px-12 py-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
+          <button className="bg-accent hover:bg-opacity-90 text-white font-inter font-normal text-lg px-12 py-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
             Search
           </button>
         </div>
